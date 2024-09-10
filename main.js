@@ -12,3 +12,14 @@ function validateCode (code) {
       return false;
     }
 }
+
+// Another 
+
+function validateCode (code) {
+    var str = code.toString()
+      if(str[0] === "1" || str[0] === "2" || str[0] === "3"){
+        return true
+      }
+      return false
+}
+
